@@ -9,4 +9,4 @@ c.Authenticator.add_user_cmd = [
     'adduser', '--force-badname', '-q', '--gecos', '""', '--disabled-password']
 c.NotebookApp.notebook_dir = u'/home/jovyan/work'
 # Set of users who can administer the Hub itself
-c.Authenticator.admin_users = {'slurm'}
+c.Authenticator.admin_users = {'user'}
